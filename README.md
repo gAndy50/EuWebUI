@@ -1,7 +1,7 @@
 # EuWebUI
 
 # ABOUT
-EuWebUI is a wrapper of WebUI for the OpenEuphoria programming language. 
+EuWebUI is a wrapper of WebUI for the OpenEuphoria programming language. This uses Greg's FFI Library for Euphoria and must use the 64-bit version of Euphoria. 
 
 # LICENSE
 
