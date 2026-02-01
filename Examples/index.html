@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Test</title>
+    <b> Hello World! </b>
+    <br>
+    <script src="webui.js"></script> <!-- Required -->
+</head>
+<body>
+    <button id="exitBtn">Exit</button>
+
+    <script>
+        // Use WebUI's built-in JS bridge
+        document.getElementById("exitBtn").addEventListener("click", function() {
+            webui.call("close_app");  // This triggers the Euphoria callback
+        });
+    </script>
+</body>
+</html>
